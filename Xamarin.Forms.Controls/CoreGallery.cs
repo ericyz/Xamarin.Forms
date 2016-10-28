@@ -220,7 +220,6 @@ namespace Xamarin.Forms.Controls
 		public CorePageView (Page rootPage, NavigationBehavior navigationBehavior = NavigationBehavior.PushAsync)
 		{
 			var pages = new List<Page> {
-				new BindingsSpeedPage{Title = "Speed"},
 				new PlatformSpecificsGallery() {Title = "Platform Specifics"},
 				new NativeBindingGalleryPage {Title = "Native Binding Controls Gallery"},
 				new XamlNativeViews {Title = "Xaml Native Views Gallery"},
